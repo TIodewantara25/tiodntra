@@ -1,0 +1,312 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/ghoul-2');
+@import url('https://fonts.cdnfonts.com/css/ellipsoideogram');
+@import url('https://fonts.cdnfonts.com/css/sifonn');
+@import url('https://fonts.cdnfonts.com/css/justice');
+@import url('https://fonts.cdnfonts.com/css/gamer-spot');
+@import url('https://fonts.cdnfonts.com/css/model');
+@import url('https://fonts.cdnfonts.com/css/cliff-edge');
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+
+  
+}
+
+
+section {
+  padding: 20px 10%;
+}
+body {
+  color: var(--text-color);
+  background: #fff;
+ 
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 10%;
+}
+.navbar {
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* padding: 10px 10px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #243342; */
+}
+.navbar a {
+  font-size: 2rem;
+  padding: 10px 20px;
+  color: #535659;
+  align-items: center;
+  font-weight: 500;
+  font-family: 'Model', sans-serif;
+                                                
+
+}
+.navbar a:hover {
+  color:  black;
+  border-radius: 2rem;
+}
+#menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background: white;
+  gap: 1.5rem;
+  background-size: cover;
+ 
+}
+.home-img  img {
+  margin-left: 30%;
+  width: 400px;
+  height: 400px;
+  background-color: #243342;
+  border-radius: 56% 54% 34% 66% / 54% 61% 39% 46%;
+  overflow: hidden;
+}
+  /* width: 60%;
+  position: relative;
+  left: 30%;
+  --c:#535659; 
+  --b: 10px;   
+  --g: 5px;     
+  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .3s, background-position .3s .3s;
+  cursor: pointer; */
+/* img:hover {
+  --_i: 100%;
+  transition: .3s, background-size .3s .3s; */
+
+.home-text h1 {
+  font-size: 35px;
+  font-family: 'Cliff Edge', sans-serif;
+                                                
+}
+.home-text p {
+  max-width: 80%;
+  margin: 1rem 0 1.1rem;
+  font-family: "Popins", sans-serif;
+                                                
+}
+.home-text span{
+  color: #243342;
+}
+.home a{
+  font-family: "popins", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #243342;
+}
+.home-text h3{
+  color: #243342;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.sertifikats .sertifikats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  
+}
+.sertifikats .sertifikats-container .sertifikat-box {
+  position: relative;
+  height:250px;
+  flex: 1 1 18rem;
+  overflow: hidden;
+  border: 0.1rem solid #999;
+}
+.sertifikats .sertifikats-container .sertifikat-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sertifikats .sertifikats-container .sertifikat-box .text {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 8rem;
+  background: rgba(255, 244, 243, 0.78);
+  transition: 0.5s;
+}
+.sertifikats .sertifikats-container .sertifikat-box:hover .text {
+  top: 0;
+}
+.sertifikat-box .text h2 {
+  font-size: 1.2rem;
+  font-family: 'Ellipsoideogram', sans-serif;
+                                                
+                                                
+} 
+.heading1{
+  text-align: center;
+  font-family: 'Model', sans-serif;
+                                                
+}
+
+
+
+.projects .projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.projects .projects-container .project-box {
+  position: relative;
+  height: 250px;
+  flex: 1 1 18rem;
+  overflow: hidden; 
+  border: 0.1rem solid #999;
+}
+.projects .projects-container .project-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projects .projects-container .project-box .text {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 6rem;
+  background: rgba(255, 244, 243, 0.78);
+  transition: 0.5s;
+}
+
+.projects .projects-container .project-box:hover .text {
+  top: 0;
+}
+.project-box .text h2 {
+  font-size: 1.2rem;
+  font-family: 'Ellipsoideogram', sans-serif;
+                                                
+}
+.heading2{
+  text-align: center;
+  font-family: 'Model', sans-serif;
+                                                
+}
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.medsos a {
+  font-size: 27px;
+  margin: 0.5rem;
+}
+.medsos a .bx {
+  padding: 5px;
+  color: #fff;
+  background: #161616;
+  border-radius: 50%;
+}
+.medos a .bx:hover {
+  background:  #f54744;
+}
+.Tio {
+  margin: 1rem 0 1rem;
+}
+.Tio a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--second-color);
+  padding: 1rem;
+}
+
+
+
+
+  @media (max-width: 650px) {
+    :root {
+      --big-font: 2rem;
+      --h2-font: 1.4rem;
+    }
+    #menu-icon {
+      display: initial;
+      color: var(--text-color)
+    }
+    header .navbar {
+      position: absolute;
+      top: -400px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background: white;
+      box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+      transition: 0.5s;
+    }
+    .navbar.active {
+      top: 100%;
+    }
+    .navbar a {
+      padding: 1.5rem;
+      display: block;
+    }
+    .navbar a:hover {
+      color: var(--main-color);
+      background: none;
+    }
+    .home {
+      grid-template-columns: 1fr;
+    }
+    .home-text {
+      padding-top: 2rem;
+    }
+    .home-img img {
+  width: 100%;
+  position: relative;
+  left:-30%;
+}
+  }
